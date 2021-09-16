@@ -1,267 +1,122 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Ubuntu', sans-serif; */
-
 *{
     margin: 0;
-    padding : 0;
+    padding: 0;
 }
-
 header{
 
-margin-left: 5%;
+background: #5CBAFF;
 
-width: 90%;
+padding: 15px 0;
+}
+header nav {
+
+width: 50%;
+
+margin: auto;
+}
+header nav ul{
 
 display: flex;
 
 justify-content: space-between;
-
-padding: 30px 0px;
-}
-
-
-.logo{
-
-}
-nav{
-
-width: 50%;
-width: 50%;
-}
-
-nav ul{
 
 list-style: none;
 
-display: flex;
+font-size: 16px;
 
-justify-content: space-between;
+align-items: center;
+}
+header nav ul li {
+
 
 }
-nav ul li{
+header nav ul li a{
 
-font-family: 'Playfair Display', serif;
+text-decoration: none;
+
+color: #fff;
+
 text-transform: uppercase;
-    
-color: #626262;
-    
-font-size: 18px;
 }
-
-.banner{
-
-width: 90%;
-
-margin-left: 5%;
-}
-
-.banner img{
-
-width: 100%;
-}
-
-.photodiary{
-
-width: 80%;
-
-margin-left: 10%;
-
-padding-top: 80px;
-}
-
-.photodiary h5{
-    
-font-family: 'Ubuntu', sans-serif;
-    
-text-transform: uppercase;
-    
-color: #b4ad9e;
-    
-font-size: 14pt;
-    
-font-weight: 300;
-    }
-
-.photodiary h1{
-    font-family: 'Playfair Display', serif;
-    margin-top: 15px;
-    color: #626262;
-    margin-bottom: 30px;
-    font-size: 30pt;
-    font-weight: 400;
-}
-
-.photodiary p{
-    font-family: 'Playfair Display', serif;
-    color: #626262;
-    font-size: 14pt;
-    margin-bottom: 40px;
-    font-weight: 400;
-}
-
-.lifestyle{width: 80%;margin-left: 10%;/* margin-top: 116px; */display: flex;flex-wrap: wrap;justify-content: space-between;}
-.lifestyle_One{
-
-width: 47%;
-}
-
-.lifestyle_One img{
-
-width: 100%;
-
-margin-bottom: 25px;
-
-margin-top: 116px;
-}
+header nav ul li a img{
 
 
-.lifestyle_One h5{
-
-    font-family: 'Ubuntu', sans-serif;
-    
-    text-transform: uppercase;
-        
-    color: #b4ad9e;
-        
-    font-size: 14pt;
-        
-    font-weight: 300;
-}
-.lifestyle_One h1{
-    font-family: 'Playfair Display', serif;
-    margin-top: 18px;
-    color: #626262;
-    margin-bottom: 35px;
-    font-size: 29pt;
-    font-weight: 400;
-}
-.lifestyle_One p{ 
-    font-family: 'Playfair Display', serif;
-    color: #626262;
-    font-size: 14pt;
-    margin-bottom: 40px;
-    font-weight: 400;
-}
-
-
-.signup{
-
-background: #f0f0f0;
-
-padding: 100px 0px;
-
-margin: 50px 0px;
-}
 
 .content{
-
-width: 35%;
-
-margin: auto;
+    height: 90vh;
+    display: flex;
 }
+.featured-image{
+    width: 40%;
+    background-color: #5CBAFF;
+    text-align: center;
+    padding: 160px 0px;
 
-.content h1{
-    font-family: 'Playfair Display', serif;
-font-size:  32pt;
-
-color: #333333;
-
-font-weight: 400;
-
-margin-top: px;
-
-font-weight: 400;
 }
-
-.content input{
-    
-border: none;
-    
-background: transparent;
-    
-margin-top: 70px;
-    
-border-bottom: 1px solid black;
-    
-width: 100%;
-    
-outline: none;
-}
-
-.loadmore{
-
-padding: 180px 0px;
-
-text-align: center;
-}
-.loadmore button{
-    font-family: 'Playfair Display', serif;
-border: 1px solid;
-    
-
-FONT-WEIGHT: 200;
-    
-background: o;
-    
-padding: 20px 40px;
-    
-background: transparent;
-    
-font-size: 20pt;
-    
-color: #626262;
-}
-
-footer{
-
-color: #f0f0f0;
-
-padding: 50px;
-
-background-color: #f0f0f0;
-}
-.footer_content{
-
-display: flex;
-
-justify-content: space-between;
-
-color: #6a6a6a;
-
-width: 80%;
-
-margin: auto;
-}
-.terms{
-    font-family: 'Playfair Display', serif;
-width: 20%;
-}
-.terms ul{
-
-list-style: none;
-
-display: flex;
-
-justify-content: space-between;
-
-/* font-size: 12pt; */
-}
-.terms ul li{
+.featured-image img{
 
 }
 
-.follow{
-
-width: 20%;
+.contact-form{
+    width: 60%;
+    background-color: #0093FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.follow ul {
-    font-family: 'Playfair Display', serif;
-list-style: none;
-
-display: flex;
-
-justify-content: space-between;
+.contact{
+   width: 35%;
 }
-.follow ul li{
-    
+.contact h1{
+    color: #fff;
+    font-size:30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family:'Roboto', sans-serif;
+}
+.contact p{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact h5{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.contact form{
+
+}
+.contact form input{
+    width: 100%;
+    margin-top: 12px;
+    padding: 14px 0 13px 13px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+}
+.contact form input[type="submit"]{
+    width: auto;
+    padding: 0;
+    padding: 10px 11px 10px 12px;
+    color: #5CBAFF;
+}
+span{
+}
+.links{
+    width: 100%;
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.links ul li{
+    margin-top: 20px 0;
 }
